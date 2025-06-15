@@ -19,7 +19,10 @@ function onLoginSubmit(e) {
         loginMessage.style.color = 'red';
         return;
     } 
-loginMessage.textContent = 'Welcome, ' + user.username + '!';
+loginMessage.textContent = 'Login successful! Redirecting...';
+    setTimeout(() => {
+        window.location.href = 'welcome.html';
+    }, 1000);
     loginMessage.style.color = 'green';
     loginForm.reset();
 }

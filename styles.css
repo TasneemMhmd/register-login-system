@@ -56,9 +56,14 @@ button:hover {
     background-color: #6096BA;
 }
 
-#message {
+#message, p {
     margin-top: 10px;
     font-size: 14px;
     text-align: center;
     color: #274C77;
+}
+
+a{
+    color: #0a203a;
+    font-size: larger;
 }
